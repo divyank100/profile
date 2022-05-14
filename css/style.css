@@ -1,0 +1,36 @@
+*{
+	
+	
+}
+:root{
+	--primary-color:red;
+	--text-color:yellow;
+	--background-color:skyblue;
+}
+
+#wrapper{
+	width:220px;
+	height:200px;
+	margin:150px ;
+	border:2px solid red;
+	
+}
+
+#content{
+	background-color:yellow;
+	width:220px;
+	height:200px;
+	transition-property:transform;
+	transition-duration:2s;
+	
+}
+#content:hover{
+	transform:rotate3d(20,20,20,60deg);
+}
+
+
+
+
+
+
+
